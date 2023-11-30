@@ -176,12 +176,16 @@ section .title::after{
 .home .max-width{
   width: 100%;
   display: flex;
+    justify-content: flex-end;
 }
 .home .max-width .row{
   margin-right: 0;
 }
 .home .home-content .text-1{
     font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+   
 }
 .home .home-content .text-2{
     font-size: 75px;
@@ -195,7 +199,9 @@ section .title::after{
 .home .home-content .text-3 span{
     color: rgb(12, 150, 19);
     font-weight: 500;
+    
 }
+
 .home .home-content a{
     display: inline-block;
     background: rgb(12, 150, 19);
@@ -205,8 +211,12 @@ section .title::after{
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
+    margin-left: auto;
+    margin-left: 390px; /* adjust this value as needed */
+
     border: 2px solid rgb(12, 150, 19);
     transition: all 0.3s ease;
+    text-align: right;
 }
 .home .home-content a:hover{
     color: rgb(12, 150, 19);
