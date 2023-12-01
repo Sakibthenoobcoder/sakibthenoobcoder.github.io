@@ -191,9 +191,11 @@ section .title::after{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    text-align: right;
 }
 .home .home-content .text-3{
     font-size: 40px;
+    text-align: right;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
@@ -665,11 +667,19 @@ footer span a:hover{
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: -3px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 25px;
+        margin: 5px 0;
     }
+    .home .max-width{
+        width: 100%;
+        display: flex;
+          justify-content: flex-end;
+      }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
         font-size: 19px;
